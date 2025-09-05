@@ -12,9 +12,8 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1002887045646")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002887045646"))
 
 # MongoDB Configuration
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://saraswatisharmapbc:L8aRiWhBbhi8mFwN@cluster0.gxhxgye.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-")
-DB_NAME = os.environ.get("DB_NAME", "saraswatisharmapbc")
+DATABASE_URL = os.environ.get("DATABASE_URL", "Mongo -- mongodb+srv://takkishor9784:gG73juoh44MnvJEZ@cluster0.q8hxdk2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "takkishor9784")
 COLLECTION_NAME = os.environ.get("COLLECTION_NAME", "tests")
 ADMIN_ID = os.environ.get("ADMIN_ID", "1783306092")
 
